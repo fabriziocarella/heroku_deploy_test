@@ -4,7 +4,7 @@
   "engines": {
     "node": "12.x"
   },
-  "description": "",
+  "description": "This example accompanies the\r [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)\r tutorial.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
@@ -15,5 +15,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroku-examples/node-socket.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heroku-examples/node-socket.io/issues"
+  },
+  "homepage": "https://github.com/heroku-examples/node-socket.io#readme"
 }
